@@ -28,7 +28,7 @@ namespace WikiInterestNews
         {
 
             string url = "";
-            url = $"https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&pageids={324325}&explaintext";
+            url = $"https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&pageids={324325}&explaintext"; //для примера такое значение, а так там рандом будет
 
             using (HttpResponseMessage response = await client.GetAsync(url))
             {
