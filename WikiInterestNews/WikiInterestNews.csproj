@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="1674289765_catherineasquithgallery-com-p-serii-fon-v-khoroshem-kachestve-foto-129.jpg" />
+    <None Remove="Wikipedia-logo-v2-en.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.46" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="1674289765_catherineasquithgallery-com-p-serii-fon-v-khoroshem-kachestve-foto-129.jpg" />
+    <Resource Include="Wikipedia-logo-v2-en.png" />
+  </ItemGroup>
+
+</Project>
